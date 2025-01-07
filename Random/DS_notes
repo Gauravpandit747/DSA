@@ -1,0 +1,41 @@
+Types of Data Structures :
+    1. Linerar
+    2. Non Linear
+
+1. Linear:
+    1. Arrays
+    2. Linked Lists
+    3. Stacks
+    4. Queues 
+    5. Hashing 
+
+2. Non - Linear:
+    1. Tree
+    2. Graph 
+
+
+# https://pythontutor.com/
+
+--------------------------------------------------------------------------------------
+
+1. Arrays :
+    Arrays are by default homogenious in nature, that means they can store only a value of only single Data type in them.
+    In order to make them heterogenious we use a concept called as refertial Arrays.
+
+    instead of using a regular call by value we use call by refrence, i.e instead of storing the values in continous assigned 
+    memory locations we store the address of new data in that memory location which is of int by default.
+
+    Example of referential arrays is Lists in Python 
+
+    Disadvantages of Referntial Arrays :
+    1) a Lill slower than the arrays in C
+    2) Requires extra memory 
+
+
+    Dynamic Array: 
+        Internally it is a Static array only.
+        Whenever a user requests to add a new element to a static array & the length of the static array is full.
+        A new array static array is created twice the length of previous static array and the older contents of prev. static 
+        aray are copied into new staic array, this process keeps on repeating as the static array keeps on filling.
+
+        Eg of Dynamic array is Python List
