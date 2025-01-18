@@ -39,3 +39,19 @@ Types of Data Structures :
         aray are copied into new staic array, this process keeps on repeating as the static array keeps on filling.
 
         Eg of Dynamic array is Python List
+
+
+    --------------------------------------------------------------------------------------
+Linked Lists: It is basically a collection of nodes, where node is an object 
+                in a node you store data and the address of another node.
+
+Advantages:
+    1) Write operations are very fast eg: insertion and deletion and have time complexity of constant i.e O(1)
+    2) Can be used to create other data structures eg: stack, queues, doubly linkedlist etc
+
+
+Operations:
+    1. insert - head/tail(append)/middle
+    2. Traverse - print
+    3. Delete - head/tail(pop)/value(remove)/index(del)
+    4. Search - value/index
